@@ -20,10 +20,6 @@ ctrlButton.call(text1);
 		event.target.reset();
 		createElement(obj);
 
-		function ctrlButton() {
-			btn.disabled = this.value.trim().length === 0;
-		}
-
 		text1.addEventListener("input", ctrlButton, false);
 		ctrlButton.call(text1);
 	});
